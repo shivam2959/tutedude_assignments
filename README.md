@@ -1,36 +1,62 @@
-problem 1
+# Problem 1: Basic Arithmetic Calculator
 
-This is a basic command-line calculator written in Python. It performs four fundamental arithmetic operations: addition, subtraction, multiplication, and division.
-📌 Features
-Accepts two numbers as input from the user.
-Performs:
-✅ Addition
-✅ Subtraction
-✅ Multiplication
-✅ Division
-Displays the result of each operation with a clear label.
-🛠️ How It Works
-The program prompts the user to enter two numbers.
-It converts the input strings to integers using int().
+## 🔍 Description
+This Python program performs basic arithmetic operations—addition, subtraction, multiplication, and division—on two numbers provided by the user.
 
-It calculates:
-Addition = num1 + num2
-Subtraction = num1 - num2
-Multiplication = num1 * num2
-Division = num1 / num2
-It prints the results to the console with appropriate labels.
+---
 
-problem 2
+## 📌 Functionality
+- Takes two integer inputs from the user.
+- Performs and displays the result of:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
 
-This is a simple Python program that prompts the user for their first name and last name, then displays a personalized greeting using their full name.
-📌 Features
-Takes input for:
-First Name
-Last Name
-Combines the names using string concatenation
-Prints a friendly greeting using an f-string
-🛠️ How It Works
-The program asks the user to input their first name.
-Then it asks for the last name.
-Both names are joined (concatenated) into a single full_name string.
-The program prints a message using the combined full name.
+---
+
+## 🧠 Step-by-Step Explanation
+
+1. **Input Collection**:
+   - Prompts the user to enter the first number.
+   - Prompts the user to enter the second number.
+   - Both inputs are converted from string to integer using `int()`.
+
+2. **Arithmetic Operations**:
+   - **Addition**: Adds the two numbers using `+`.
+   - **Subtraction**: Subtracts the second number from the first using `-`.
+   - **Multiplication**: Multiplies the two numbers using `*`.
+   - **Division**: Divides the first number by the second using `/`.
+
+3. **Output**:
+   - Each result is printed with a clear message using `print()`.
+
+----------------------------------------------------------------------------
+# Problem 2: Full Name Greeting
+
+## 🔍 Description
+This Python program asks the user to input their first and last name, combines them, and prints a personalized greeting message.
+
+---
+
+## 📌 Functionality
+- Takes two string inputs from the user (first name and last name).
+- Concatenates the names without a space.
+- Displays a greeting message using the combined name.
+
+---
+
+## 🧠 Step-by-Step Explanation
+
+1. **Input Collection**:
+   - Prompts the user to enter their first name.
+   - Prompts the user to enter their last name.
+   - Inputs are collected as strings using `input()`.
+
+2. **String Concatenation**:
+   - Combines `first_name` and `last_name` using `+`.
+   - Note: No space is added between them, so the names will appear directly joined (e.g., JohnDoe).
+
+3. **Output**:
+   - Displays a welcome message using an `f-string`.
+
