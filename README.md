@@ -60,3 +60,43 @@ This Python program asks the user to input their first and last name, combines t
 3. **Output**:
    - Displays a welcome message using an `f-string`.
 
+
+
+
+# -----------------------------------------------Assignment 2 Task 1 --------------------------------------------------
+
+# Assignment 1: Basic Python Program
+
+## Objective  
+Create a Python program that takes user input and checks whether the number is even or odd.
+
+## Approach  
+- Used `input()` to take user input.  
+- Converted the input to an integer using `int()`.  
+- Used modulus operator `%` to determine even or odd.  
+- Displayed the result using `print()`.
+
+## How to Run  
+1. Open the `.py` file in any Python IDE or terminal.  
+2. Run the script using:  
+   ```bash
+   python filename.py
+
+
+# ----------------------------------------------Assignment 2 Task 2 ----------------------------------------------
+
+# Assignment 1: Basic Python Program
+
+## Objective  
+Create a program that prints numbers from 1 to 50 and calculates their total sum.
+
+## Approach  
+- Used a `for` loop with `range()` to print numbers.  
+- Used `sum()` to calculate the total of integers from 1 to 50.  
+- Used `print()` to display each number and the final result.
+
+## How to Run  
+1. Open the `.py` file in any Python IDE or terminal.  
+2. Run the script using:  
+   ```bash
+   python filename.py
