@@ -231,3 +231,39 @@ Create a program that:
 2. Run the script using `python filename.py`.
 3. Enter the required text inputs when prompted.
 4. Final content of the file will be displayed in the output.
+
+
+# --------------------------------------Assignment 5 Task 1 ------------------------------------------------
+
+Program 1: Extract and Reverse Elements from a List
+Objective:
+Create a program that takes a list, extracts the first few elements, reverses them, and displays the results.
+
+Approach:
+Used list slicing to extract elements.
+Used reverse() to reverse the extracted list.
+Used print() to show both extracted and reversed lists.
+
+How to Run:
+Open the .py file in any Python IDE or terminal.
+Run the script using python filename.py.
+The output will show the extracted elements and the reversed version.
+
+# --------------------------------------Assignment 5 Task 2 ------------------------------------------------
+
+
+Program 2: Student Marks Lookup
+Objective:
+Create a program that takes user input for a student’s name, retrieves the corresponding marks from a dictionary, and displays the result.
+
+Approach:
+Used input() to take user input.
+Used a dictionary to store student names and marks.
+Used conditional logic to check if the name exists and print marks or an error message.
+
+How to Run:
+Open the .py file in any Python IDE or terminal.
+Run the script using python filename.py.
+Enter a student’s name when prompted to see the marks or an error if not found.
+
+
