@@ -167,3 +167,67 @@ The program uses functions and exception handling to ensure safe and reusable co
 
 
 
+# ------------------------------------------Assignment 4 Task 1 --------------------------------------------------------------
+
+# Assignment: Read a Text File in Python
+
+## Objective:
+Create a program that reads and displays the contents of a text file line by line, with error handling if the file does not exist.
+
+## Approach:
+- Used `open()` with `"r"` mode to open a file named `sample.txt`.
+- Iterated over each line in the file and printed it using `print()` and `strip()` to remove newline characters.
+- Wrapped the file reading logic inside a `try-except` block to gracefully handle errors.
+- Specifically handled the `FileNotFoundError` if `sample.txt` does not exist.
+- Used a general `Exception` handler to catch any unexpected errors.
+- Closed the file manually using `close()` after reading.
+
+## How to Run:
+1. Make sure there is a file named `sample.txt` in the same directory as the Python script (optional if testing file-not-found error).
+2. Open the `.py` file in any Python IDE or terminal.
+3. Run the script using `python filename.py`.
+4. The content of the file (if found) will be printed line by line.
+5. If the file does not exist, a friendly error message will be shown.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------Assignment 4 Task 2 --------------------------------------------------------------
+# Assignment 1: File Handling in Python
+
+## Objective:
+Create a program that:
+- Takes user input and writes it to a file.
+- Appends additional input to the same file.
+- Reads and displays the content of the file.
+
+## Approach:
+- Used `input()` to take user input.
+- Used `open()` with `"w"` mode to write initial input to `output.txt`.
+- Used `open()` with `"a"` mode to append more text.
+- Used `open()` with `"r"` mode to read and display the final contents.
+- Handled file-related errors using `try-except` blocks for safe execution.
+
+## How to Run:
+1. Open the `.py` file in any Python IDE or terminal.
+2. Run the script using `python filename.py`.
+3. Enter the required text inputs when prompted.
+4. Final content of the file will be displayed in the output.
