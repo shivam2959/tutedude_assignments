@@ -267,3 +267,34 @@ Run the script using python filename.py.
 Enter a student’s name when prompted to see the marks or an error if not found.
 
 
+# ---------------------------------------Assignment 6 ---------------------------------------------------------
+
+Objective
+This Python program extracts the first few elements from a list, reverses them, and displays the results. The main goal of the program is to demonstrate how to use list slicing and the reverse() method in Python.
+
+Approach
+The program uses list slicing to extract the first few elements from the list.
+
+It uses the reverse() method to reverse the extracted elements.
+
+Finally, the program displays the original extracted list and the reversed version using the print() function.
+
+How to Run
+Download/Clone the Repository:
+
+Download or clone the folder containing the .py file.
+
+Open the Python File:
+
+Open the .py file in any Python IDE (e.g., PyCharm, Visual Studio Code) or text editor (e.g., Sublime Text, Notepad++).
+
+Alternatively, you can open the file in any terminal.
+
+Run the Script:
+
+If you are using a Python IDE, simply press the Run button.
+
+If you are running it from the terminal, navigate to the folder containing the script and run it using the following command:
+
+
+# -----------------------------------------------------------------------------------------------------------------------
